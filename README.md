@@ -1,7 +1,7 @@
 
-# Tempora
+# NowTS
 
-Tempora is a lightweight, modular library for date and time manipulation. It provides a range of utilities for working with dates and times, including formatting, parsing, and calculating differences. Tempora is built with TypeScript to provide type safety and better development experience.
+NowTS is a lightweight, modular library for date and time manipulation. It provides a range of utilities for working with dates and times, including formatting, parsing, and calculating differences. NowTS is built with TypeScript to provide type safety and better development experience.
 
 ## Features
 
@@ -15,26 +15,26 @@ Tempora is a lightweight, modular library for date and time manipulation. It pro
 
 ## Installation
 
-You can install Tempora via npm:
+You can install NowTS via npm:
 
 ```sh
-npm install tempora
+npm install nowts
 ```
 
 ## Usage
 
-To use Tempora, you need to import and extend the desired plugins:
+To use NowTS, you need to import and extend the desired plugins:
 
 ```javascript
-import Tempora from 'tempora';
-import formatDate from 'tempora/plugins/formatDate';
-import parseDate from 'tempora/plugins/parseDate';
+import NowTS from 'nowts';
+import formatDate from 'nowts/plugins/formatDate';
+import parseDate from 'nowts/plugins/parseDate';
 
-Tempora.extend(formatDate);
-Tempora.extend(parseDate);
+NowTS.extend(formatDate);
+NowTS.extend(parseDate);
 
-const formattedDate = Tempora.formatDate(new Date(), 'YYYY-MM-DD');
-const parsedDate = Tempora.parseDate('2024-01-01', 'YYYY-MM-DD');
+const formattedDate = NowTS.formatDate(new Date(), 'YYYY-MM-DD');
+const parsedDate = NowTS.parseDate('2024-01-01', 'YYYY-MM-DD');
 console.log(formattedDate); // Outputs formatted date
 console.log(parsedDate); // Outputs parsed date object
 ```
@@ -94,8 +94,8 @@ Parses a time string into a Date object.
 To set up the development environment, clone the repository and install the dependencies:
 
 ```sh
-git clone https://github.com/lnpotter/Tempora.git
-cd Tempora
+git clone https://github.com/lnpotter/NowTS.git
+cd NowTS
 npm install
 ```
 

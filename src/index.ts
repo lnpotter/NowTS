@@ -11,7 +11,7 @@ import addHoursToDate from './plugins/addHoursToDate';
 import subtractHoursFromDate from './plugins/subtractHoursFromDate';
 import parseTime from './plugins/parseTime';
 
-const Tempora = {
+const NowTS = {
   formatDate,
   parseDate,
   addDaysToDate,
@@ -26,4 +26,4 @@ const Tempora = {
   parseTime,
 };
 
-export default Tempora;
+export default NowTS;
