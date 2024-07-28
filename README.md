@@ -93,6 +93,10 @@ Parses a time string into a Date object.
 
 Checks if a given year is a leap year.
 
+### `isWeekday(date: Date): boolean`
+
+Checks if a given date is a weekday.
+
 ## Development
 
 To set up the development environment, clone the repository and install the dependencies:
