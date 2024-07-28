@@ -89,6 +89,10 @@ Subtracts a specified number of hours from a date object.
 
 Parses a time string into a Date object.
 
+### `isLeapYear(year: number): boolean`
+
+Checks if a given year is a leap year.
+
 ## Development
 
 To set up the development environment, clone the repository and install the dependencies:
