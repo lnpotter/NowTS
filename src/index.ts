@@ -10,6 +10,8 @@ import formatCurrentTime from './plugins/formatCurrentTime';
 import addHoursToDate from './plugins/addHoursToDate';
 import subtractHoursFromDate from './plugins/subtractHoursFromDate';
 import parseTime from './plugins/parseTime';
+import isLeapYear from './plugins/isLeapYear';
+import isWeekday from './plugins/isWeekday';
 
 const NowTS = {
   formatDate,
@@ -24,6 +26,8 @@ const NowTS = {
   addHoursToDate,
   subtractHoursFromDate,
   parseTime,
+  isLeapYear,
+  isWeekday
 };
 
 export default NowTS;
