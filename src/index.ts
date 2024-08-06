@@ -12,6 +12,7 @@ import subtractHoursFromDate from './plugins/subtractHoursFromDate';
 import parseTime from './plugins/parseTime';
 import isLeapYear from './plugins/isLeapYear';
 import isWeekday from './plugins/isWeekday';
+import isSameDay from './plugins/isSameDay';
 
 const NowTS = {
   formatDate,
@@ -27,7 +28,8 @@ const NowTS = {
   subtractHoursFromDate,
   parseTime,
   isLeapYear,
-  isWeekday
+  isWeekday,
+  isSameDay
 };
 
 export default NowTS;
