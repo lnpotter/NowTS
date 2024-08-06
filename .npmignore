@@ -3,3 +3,5 @@ tests/
 *.ts
 *.test.ts
 *.map
+jest.config.js
+tsconfig.json
