@@ -97,6 +97,10 @@ Checks if a given year is a leap year.
 
 Checks if a given date is a weekday.
 
+### `isSameDay(date1: Date, date2: Date): boolean`
+
+It compares two days and returns whether they are the same or not.
+
 ## Development
 
 To set up the development environment, clone the repository and install the dependencies:
