@@ -13,6 +13,7 @@ import parseTime from './plugins/parseTime';
 import isLeapYear from './plugins/isLeapYear';
 import isWeekday from './plugins/isWeekday';
 import isSameDay from './plugins/isSameDay';
+import isBusinessDay from './plugins/isBusinessDay';
 
 const NowTS = {
   formatDate,
@@ -29,7 +30,8 @@ const NowTS = {
   parseTime,
   isLeapYear,
   isWeekday,
-  isSameDay
+  isSameDay,
+  isBusinessDay
 };
 
 export default NowTS;

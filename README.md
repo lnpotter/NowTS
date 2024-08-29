@@ -101,6 +101,10 @@ Checks if a given date is a weekday.
 
 It compares two days and returns whether they are the same or not.
 
+### `isBusinessDay(date: Date, holidays: Date[] = []): boolean`
+
+Check business days excluding holidays
+
 ## Development
 
 To set up the development environment, clone the repository and install the dependencies:
